@@ -1,0 +1,13 @@
+{
+  "name": "realestate-socket-server",
+  "version": "1.0.0",
+  "description": "Socket.IO server for Real Estate Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.1",
+    "ioredis": "^5.4.2"
+  }
+}
