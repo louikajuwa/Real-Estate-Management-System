@@ -42,7 +42,7 @@ services:
     volumes:
       - db_data:/var/lib/mysql
     ports:
-      - "3308:3306"
+      - "127.0.0.1:3308:3306"
     networks:
       - realnet
     healthcheck:
@@ -60,7 +60,7 @@ services:
       PMA_USER: root
       PMA_PASSWORD: ${DB_ROOT_PASSWORD:-rootsecret}
     ports:
-      - "8101:80"
+      - "127.0.0.1:8101:80"
     networks:
       - realnet
     depends_on:

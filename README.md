@@ -225,3 +225,7 @@ The frontend is server-rendered Blade *shells* that load data over AJAX (jQuery 
 - `CACHE_STORE=database` is the default; Redis is used only as the real-time message bus, not a read cache.
 - Properties use **soft deletes** — deleted listings remain in the DB and can be recovered via phpMyAdmin.
 - Prices are displayed in **AED** throughout.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
